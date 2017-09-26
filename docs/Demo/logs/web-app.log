@@ -1,0 +1,31 @@
+2017-09-26 16:55:32.377  INFO 21448 --- [main] com.test.spring_boot.demos.Example       : Starting Example on daiyan with PID 21448 (F:\my\mygit\spring_boot_study\docs\Demo\build\classes\main started by daiya in F:\my\mygit\spring_boot_study\docs\Demo)
+2017-09-26 16:55:32.392  INFO 21448 --- [main] com.test.spring_boot.demos.Example       : No active profile set, falling back to default profiles: default
+2017-09-26 16:55:32.439  INFO 21448 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c61a903: startup date [Tue Sep 26 16:55:32 CST 2017]; root of context hierarchy
+2017-09-26 16:55:33.332  INFO 21448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-09-26 16:55:33.832  INFO 21448 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2365ms
+2017-09-26 16:55:33.961  INFO 21448 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9090
+2017-09-26 16:55:33.962  INFO 21448 --- [main] org.eclipse.jetty.server.Server          : jetty-9.3.11.v20160721
+2017-09-26 16:55:34.055  INFO 21448 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2017-09-26 16:55:34.055  INFO 21448 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1631 ms
+2017-09-26 16:55:34.181  INFO 21448 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-26 16:55:34.181  INFO 21448 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-26 16:55:34.181  INFO 21448 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-26 16:55:34.181  INFO 21448 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-26 16:55:34.181  INFO 21448 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-26 16:55:34.390  INFO 21448 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@47fb7ec9{/,file:///C:/Users/daiya/AppData/Local/Temp/jetty-docbase.158634718951078776.9090/,AVAILABLE}
+2017-09-26 16:55:34.390  INFO 21448 --- [main] org.eclipse.jetty.server.Server          : Started @2923ms
+2017-09-26 16:55:34.624  INFO 21448 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c61a903: startup date [Tue Sep 26 16:55:32 CST 2017]; root of context hierarchy
+2017-09-26 16:55:34.686  INFO 21448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String com.test.spring_boot.demos.Example.home()
+2017-09-26 16:55:34.686  INFO 21448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-26 16:55:34.686  INFO 21448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-26 16:55:34.718  INFO 21448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 16:55:34.718  INFO 21448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 16:55:34.765  INFO 21448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-26 16:55:34.990  WARN 21448 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-09-26 16:55:35.099  INFO 21448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-09-26 16:55:35.115  INFO 21448 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-26 16:55:35.115  INFO 21448 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-26 16:55:35.115  INFO 21448 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 0 ms
+2017-09-26 16:55:35.146  INFO 21448 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@6c781a4{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+2017-09-26 16:55:35.146  INFO 21448 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9090 (http/1.1)
+2017-09-26 16:55:35.162  INFO 21448 --- [main] com.test.spring_boot.demos.Example       : Started Example in 3.27 seconds (JVM running for 3.688)
