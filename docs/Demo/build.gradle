@@ -37,6 +37,7 @@ task "create-srcs"<<{
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -46,4 +47,8 @@ dependencies {
     compileOnly "org.projectlombok:lombok:1.16.10"
     compile('com.alibaba:fastjson:1.2.20')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    // https://mvnrepository.com/artifact/org.hsqldb/hsqldb
+    testCompile group: 'org.hsqldb', name: 'hsqldb', version: '2.3.4'
+    //develop tools
+    compile("org.springframework.boot:spring-boot-devtools")
 }
