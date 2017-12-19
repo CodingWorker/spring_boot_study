@@ -1,0 +1,4 @@
+bean:
+ name: test
+ age: 12
+ source: application2.yml
