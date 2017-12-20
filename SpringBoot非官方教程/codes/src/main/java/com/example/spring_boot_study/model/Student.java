@@ -1,23 +1,25 @@
 package com.example.spring_boot_study.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
- * Created by DaiYan on 2017/12/19.
+ * Created by DaiYan on 2017/12/20.
  */
-public class Account {
+@Entity
+public class Student {
     /**
      * id
      */
+    @Id
+    @GeneratedValue
     private Integer id;
 
     /**
      * name
      */
     private String name;
-
-    /**
-     * money
-     */
-    private String money;
 
     public Integer getId() {
         return id;
@@ -33,13 +35,5 @@ public class Account {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getMoney() {
-        return money;
-    }
-
-    public void setMoney(String money) {
-        this.money = money;
     }
 }
